@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <img src="Ảnh chụp màn hình 2022-11-01 231530.png" alt="Ong Nam Bi" style="width:200px;height:200px;">
+    </div>
+    <div class="thongtin">
+        <h3>Tên Thật: Nguyễn Ngọc Tân Khoa</h3>
+        <h3>Tuổi: 15 tuổi</h3>
+        <h3>Nơi Ở: Gò Quao Kiên Giang</h3>
+        <h3>Nick Name: Ông năm bi</h3>
+        <h3>Tính Cách: Hài, Thật thà, stronger, thích màu mè</h3>
+        <h5 class="tho">Mth tặng khoa câu thơ: Yêu em anh để trong đầu, đầu gì không thấy thấy toàn đầu bi.</h5>
+    </div>
+    <input class="click" id="ClickNow" type="button" value="Click Now!" style="width:100px;height:60px">
+</body>
+<script>
+    function playSound() {
+        const audio = new Audio('mp3-output-ttsfree(dot)com.mp3')
+        audio.play()
+    }
+
+    const ClickNow = document.querySelector('#ClickNow')
+
+    ClickNow.onclick = () => {
+        playSound();
+    }
+    </script>
+</html>
